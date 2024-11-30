@@ -45,4 +45,37 @@ let stringNumber = String(someNumber)
 let value = 3
 let negValue = -value
 
-console.log(negValue);
+//console.log(negValue);
+//console.log(2+3);//etc etc ...
+
+let str1 = "Hello"
+let str2 = " Jango"
+
+let str3 = str1+str2 
+//console.log(str3);
+
+//console.log("1" + 2); //will treat both as string if any one of them is string 
+//console.log(1 + "2");
+//but but
+//console.log("1" + 2 + 2);//122
+//console.log(1 + 2 + "2");//32
+//kya notice kiya ???
+//ki pehle vale ko add kiya (1+2=3), then string ki tarah treat kiya , concate kiya ("3" + "2" = 32)
+//coz of the Guidelines 
+
+//convertions can be done by in some messy ways like:
+// console.log(+true);//1
+// console.log(true+);//Error
+// console.log(+"");//0
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2+2//better ways to assign values, readabilty is on priority
+
+//postfix ans prefix (js mdn)
+let gameCounter = 100
+gameCounter++;//postfix
+console.log(gameCounter); //101
+
+//++gameCounter;//prefix
+
