@@ -35,4 +35,4 @@ console.log(url.replace('%20', '-'));
 
 console.log(url.includes("jugriti")) //returns Boolean
 
-console.log(nickName.split('a'))
+console.log(nickName.split(' '))
